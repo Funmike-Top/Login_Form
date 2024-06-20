@@ -1,0 +1,91 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo img{
+ width: 200px;
+
+}
+/*      Main        */
+main h2{
+    color: white;
+    font-size: 50px;
+}
+/* form */
+
+
+form{
+    margin-top: 30px;
+}
+.form-group i{
+    color: white;
+}
+.form-group{
+    padding: 20px 20px;
+    border: 2px solid #f8f8f8;
+    border-radius: 10px;
+     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.form-group input{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    color: #f8f8f8;
+    flex: 1;
+}
+.formal input{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    color: #f8f8f8;
+    
+}
+.formal{
+    padding: 20px 20px;
+    border: 2px solid #f8f8f8;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.adissonandadi{
+    text-decoration: underline;
+    color: gray;
+   margin-top: 5px;
+   font-size: 14px;
+}
+.adi{
+    color:black;
+    text-align: center;
+    padding: 10px 10px;
+border-radius: 10px;
+height: 50px;
+width: 410px;
+font-weight: bold;
+font-size: 25px;
+position: absolute;
+margin-top: 30px;
+}
+.dont-have-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
